@@ -248,6 +248,7 @@ body {
   min-height: 90vh;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .gradient-hero {
@@ -261,6 +262,10 @@ body {
 
 .gradient-overlay {
   position: relative;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .gradient-overlay::before {
@@ -284,11 +289,15 @@ body {
 
 .hero-content {
   text-align: center;
+  width: 100%;
 }
 
 .hero-text {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-badge {
